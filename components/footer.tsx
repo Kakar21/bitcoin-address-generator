@@ -22,7 +22,7 @@ export function Footer() {
               href="#"
               className="flex items-center gap-2 text-neutral-400 hover:text-[#F7931A] transition-colors"
               onClick={() => {
-                // TODO: Link to actual GitHub repository
+                window.open('https://github.com/Kakar21/bitcoin-address-generator', '_blank');
               }}
             >
               <Github className="w-5 h-5" />
@@ -33,7 +33,7 @@ export function Footer() {
               href="#"
               className="flex items-center gap-2 text-neutral-400 hover:text-[#F7931A] transition-colors"
               onClick={() => {
-                // TODO: Link to MIT license
+                window.open('https://github.com/Kakar21/bitcoin-address-generator/blob/main/LICENSE', '_blank');
               }}
             >
               <ExternalLink className="w-4 h-4" />
